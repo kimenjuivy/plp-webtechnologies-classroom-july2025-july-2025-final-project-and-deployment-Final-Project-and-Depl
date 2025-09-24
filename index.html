@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy Kimenju - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">Ivy Kimenju</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Ivy Kimenju</span>
+                        <br>Web Developer & Designer
+                    </h1>
+                    <p class="hero-description">
+                        I create beautiful, responsive websites that deliver exceptional user experiences. 
+                        Passionate about clean code, modern design, and innovative solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+                        <a href="about.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <div class="window-title">portfolio.js</div>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line"><span class="keyword">const</span> <span class="variable">developer</span> = {</div>
+                            <div class="code-line">  <span class="property">name</span>: <span class="string">'Ivy Kimenju'</span>,</div>
+                            <div class="code-line">  <span class="property">skills</span>: [<span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'JS'</span>],</div>
+                            <div class="code-line">  <span class="property">passion</span>: <span class="string">'Creating Amazing Web Experiences'</span></div>
+                            <div class="code-line">};</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="html">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML5</h3>
+                        <p>Semantic markup and accessibility-focused structure</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="css">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS3</h3>
+                        <p>Responsive design, animations, and modern layouts</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="js">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive functionality and dynamic user experiences</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="responsive">
+                        <div class="skill-icon">📱</div>
+                        <h3>Responsive Design</h3>
+                        <p>Mobile-first approach for all screen sizes</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Preview Section -->
+        <section class="projects-preview">
+            <div class="container">
+                <h2 class="section-title">Featured Work</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <div class="placeholder-icon">💼</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A fully responsive online store with modern UI/UX design principles</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <div class="placeholder-icon">📊</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Data Dashboard</h3>
+                            <p>Interactive dashboard with real-time data visualization and analytics</p>
+                            <div class="project-tags">
+                                <span class="tag">CSS Grid</span>
+                                <span class="tag">Charts.js</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <div class="placeholder-icon">🎮</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Interactive Game</h3>
+                            <p>Browser-based puzzle game with smooth animations and sound effects</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Canvas API</span>
+                                <span class="tag">Animation</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>Let's work together to bring your ideas to life with clean, modern web development.</p>
+                    <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Ivy Kimenju</h3>
+                    <p>Web Developer & Designer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <span class="social-icon">🐙</span>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <span class="social-icon">💼</span>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <span class="social-icon">🐦</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ivy Kimenju. Built with HTML5, CSS3, and JavaScript.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
